@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>Admin</title>
+    <div class="p-3 mb-2 bg-primary text-white">
+        <div class="jumbtron" style="text-align: center; padding: 50px;">
+            <div class="container">
+                <h1>
+                    Khomtso's Blog: Admin's page
+                </h1>
+            </div>
+        </div>
+    </div>
+</head>
+
+<body>
+
+
+    <h1 style="text-align: center;">Create a post</h1>
+
+    <div class="container">
+        <form action="/action_page_process_submitted_data.php">
+            <div class="row"></div>
+            <h3>Post Title</h3>
+            <input class="form-control form-rounded" type="text" name="" value="" placeholder="Say Something..." id="pstTitle">
+            <br>
+            <h3>Choose an image</h3>
+            <input type="file" name="" value="" id="image">
+            <br>
+            <h3>Post Body</h3>
+            <textarea class="form-control" row="10" id="pstText"></textarea>
+            <br>
+            <h3>Post Category</h3>
+            <input type="text" class="form-control" name="" value="" id="pstCat">
+            <br>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/popper.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>

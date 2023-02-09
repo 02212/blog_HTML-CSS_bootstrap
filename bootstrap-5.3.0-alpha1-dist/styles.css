@@ -1,0 +1,99 @@
+.bgrd_body {
+    background: rgb(9, 9, 121);
+    background: linear-gradient(36deg, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 100%);
+}
+
+.bgrd_post {
+    background: rgb(101, 219, 245);
+    background: linear-gradient(153deg, rgba(101, 219, 245, 1) 8%, rgba(153, 232, 249, 1) 100%, rgba(246, 246, 246, 1) 100%);
+}
+
+.bgrd_post2 {
+    background: rgb(101, 245, 166);
+    background: linear-gradient(153deg, rgba(101, 245, 166, 1) 8%, rgba(22, 144, 83, 1) 100%, rgba(246, 246, 246, 1) 100%);
+}
+
+.bgrd_post3 {
+    background: rgb(226, 10, 10);
+    background: linear-gradient(153deg, rgba(226, 10, 10, 1) 0%, rgba(251, 123, 2, 1) 100%);
+}
+
+.bgrd_head {
+    background: rgb(10, 226, 169);
+    background: linear-gradient(153deg, rgba(10, 226, 169, 1) 0%, rgba(0, 18, 255, 1) 100%);
+}
+
+.bgrd_head2 {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(153deg, rgba(255, 255, 255, 1) 0%, rgba(223, 255, 255, 1) 100%);
+}
+
+.bgrd_post4 {
+    background: rgb(238, 255, 253);
+    background: linear-gradient(153deg, rgba(238, 255, 253, 1) 0%, rgba(168, 255, 255, 1) 100%);
+}
+
+#rcorners2 {
+    border-radius: 10px 70px 10px;
+    background: bgrd_post;
+    padding: 20px;
+    width: 1700px;
+    height: 400px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    ;
+}
+
+#rcorners2 {
+    border-radius: 10px 70px 10px;
+    background: bgrd_post2;
+    padding: 20px;
+    width: 1700px;
+    height: 400px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    ;
+}
+
+#rcorners3 {
+    border-radius: 10px 70px 10px;
+    background: bgrd_post3;
+    padding: 20px;
+    width: 1700px;
+    height: 400px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    ;
+}
+
+#rcorners1 {
+    border-radius: 30px 50px 30px 30px;
+    padding: 20px;
+    width: 200px;
+    height: 350px;
+}
+
+.text {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+div.card {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: bgrd_body;
+}
+
+#rcorners4 {
+    border-radius: 15px;
+    background: bgrd_post4;
+    padding: 30px;
+    width: 500px;
+    height: 550px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
